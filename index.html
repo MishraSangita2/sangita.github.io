@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-WASTE</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap"real="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    
+    body{
+        font-family:'Baloo Bhai';
+        font-size: 17px;
+        text-decoration:solid;
+        margin:3px;
+        padding:0px;
+        background:rgb(135, 201, 231);
+        height:444px;
+        color:black;
+        font-weight: 500;
+        
+    }
+    .left{
+        border: 3px solid rgb(54, 54, 58);
+        font-size: 20px;
+        font-family:'Baloo Bhai';
+        text-align: center;
+        position: absolute;
+        left: 34px;
+        top: 35px;
+        display:inline-block;
+        background-color: black;
+        
+
+    }
+    .mid{
+        
+        border:3px solid rgb(50, 54, 46);
+        width: 633px;
+        font-size: 20px;
+        display:block;
+        margin:25px auto;
+        color: black;
+
+
+    }
+    .right{
+        
+        position:absolute;
+        right:50px;
+        top: 35px;
+        display:inline-block;
+
+    }
+    .right img{
+        width: 500px;
+        height:300px;
+        
+    }
+    .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #c09994;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #e90f0f;
+  color: white;
+}
+
+.fa-instagram {
+  background: #7c2a53;
+  color: white;
+}
+P.ex1::first-letter {
+   color:#111211;
+   font-size:300%;
+   }   
+   
+    .btn{
+        margin: 0px 9px;
+        color:white;
+        background-color:black;
+        padding:4px 14px;
+        border:2px solid rgb(78, 75, 75);
+        border-radius:10px; 
+        font-size: 20px;
+        cursor:pointer;
+
+    }
+.btn:hover{
+    text-decoration: underline;
+    background-color: rgb(41, 40, 39);
+    font-family: "Times New Roman", Times, serif;
+}
+    .navbar{
+        display:inline-block;
+        color:rgb(21, 20, 20);
+
+    }
+    .navbar li{
+        display:inline-block; 
+    }
+    .navbar li a{
+        color:rgb(22, 24, 24);
+        text-decoration:none;
+        padding:34px;
+    
+    }
+    .navbar li a:hover, .navbar li a:active{
+       text-decoration: underline;
+       color:rgb(71, 68, 68);
+
+    
+    }
+    .topnav .search-container {
+  float: center;
+}
+
+.topnav input[type=text] {
+  padding: 16px;
+  margin-top: 28px;
+  font-size: 30px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: left;
+  padding: 16px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 59px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+    .container{
+        color:aliceblue ;
+        border:2px solid rgb(10, 10, 9);
+        margin: 99px 197px;
+        padding: 36px 80px;
+        width:30%;
+        border-radius: 20px;
+        background: black;
+    }
+    .form-group input{
+        margin:8px auto;
+        text-align:center;
+        display:block;
+        justify-content:center;
+        width:100%;
+        padding:10px;
+        border:2px solid black;
+        font-size:20px;
+        border-radius: 8px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width:23%;
+        margin:auto;
+
+    }
+    nav{
+   float:right;
+   width:33%;
+   height:310px;
+   color:black;
+   padding:20px;
+   }
+nav ul{
+   list-style-type:none;
+   padding:3px;
+}
+
+
+    article{
+   float:left;
+   width: 60%;
+   height:250px;
+   /*background-image:url("wst2.png");*/
+   padding:30px;
+       }
+section::after{
+   content:"";
+   display:table;
+   clear:both;
+    }
+footer{
+    text-align: center;
+    width: 100%;
+    background-image:url("wst2.png");
+    padding:5%;
+    text-align:center;
+    font-size:25px;
+    
+}
+    @media(max-width:600px){
+.nav,article{
+       width:100%;
+height:auto;
+}
+    }
+   .column{
+column-count:3;
+column-gap:60px;
+column-rule:5px;
+}
+.column1{
+column-count:2;
+column-gap:60px;
+column-rule:5px;
+}
+.avatar {
+    
+  /*vertical-align: middle;*/
+  width: 140px;
+  height: 150px;
+  padding: 15px;
+  border-radius: 50%;
+}
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+    
+
+        </div>
+    
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Why Us</a></li>
+                <li><a href="#">Donate Us</a></li>
+                <li><a href="#">Product</a></li>
+                  
+                
+            </ul></div>
+            
+        <div class="right">
+            <button class="btn">Call Us</button> <button class="btn">Email Us</button>
+            <div class="search-container">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+        </div>
+    </header>
+    <section>
+       
+    <article><p class="ex1">
+        <h4>Why to Recycle li-batteries</h4></p><li>Battery specialists and environmentalists give a long list of reasons to recycle Li-ion batteries. The materials recovered could be used to make new batteries, lowering manufacturing costs. Currently, those materials account for more than half of a battery's cost.</li><li>Everything has some Advantages & Disadvantages</li>
+    <div class="column1">
+    <h3>Advantages</h3><li>Better Energy Efficiency</li>
+    <li>Longer Lifespan</li>
+    <li>Longer lifespan etc.</li>
+<h3>Disadvantages</h3>
+<li>Aging Effect and Deep Discharge</li>
+<li>Safety Hazards</li>
+<li>Causes over heating etc.</li></p></div>
+</article>
+<nav><img src="wst3.png"height="100%"width="100%">
+    
+ </nav>
+</section></div>
+        
+    </div>
+    <div class="column">
+        <p class="ex1">Technology changes day by day due to which a large amount of electronic or electrical devices are turning into waste. Some of the common e-waste elements are mobile phones, computers, laptops, hard drives, fans, microwaves, DVD, printers, lamps, etc.<li>E-waste is a serious issue for our environment because it releases harmful toxic chemicals from the metals due to chemical reactions and these toxic chemicals harm our environment. The management of such type of waste is known as E-waste management.</li>
+
+            <li>E-waste management is defined as a holistic method of cutting down  E-waste from the earth to prevent its harmful toxic to deteriorate earth. It recycles and reuses the e-waste that is no longer needed.</li>
+            
+            <li>It has many harmful effects towards earth</li>
+           <li>When the waste is not disposed properly, it harms the environment and the people living in it.</li><li> Similarly, if e-waste is not disposed properly,it causes huge damage to the environment and also affects the health of humans living in it.Battery specialists and environmentalists give a long list of reasons to recycle Li-ion batteries. </li><li>The materials recovered could be used to make new batteries, lowering manufacturing costs. Currently, those materials account for more than half of a battery’s cost.</li></p>
+        </div>
+        <h2><b>What we do</b></h2>
+       <p> Our technology developed and designed production lines & equipments to recyle the E-wastes and Li-batteries which are harmful for earth.By recycling the product we make new products like new batteries and many more.We are recyling the waste at affordable price and easy recovery of economical products.</p>
+       <h3><b><u>Raw materials</u></b></h3>
+       <p>Global e-waste generated in 2019 is 53.6 million tonnes; and T he value of raw materials in the global generation of e-waste in 2019 is approximately US$57 billion. <br><br>The main souces are, <li>Copper</li><li>Iron</li><li>Gold etc.</li></p>
+       <img src="Raw.jpeg"height="350px"> <img src="wst1.jpg"height="350px">
+       <h3><b><u>Process</u></b></h3>
+       <p>These toxic materials, and in particular heavy metals such as mercury and cadmium, can cause damage to ecosystems, build up in food chains, and have direct and immediate effects on human health.
+        <br><br>The recycling process happens through several steps.They are,<li>Collection</li>
+        <li>Storage</li>
+        <li>Manual Sorting, Dismantling, Shredding</li>
+        <li>Mechanical Separation</li>
+        <li>Recovery</li>
+       </p>
+       
+       <img src="fchart.png"height="350px">
+       <img src="process.jpeg"height="350px"width="45%">
+       <h3><b><u>Final Product</u></b></h3>
+       <p><li>The materials, now separated, are prepared for sale and reuse.</li><li> For some materials, such as plastic or steel, this means joining another recycling stream. </li><li>Others may be processed onsite and sold directly alongside usable components separated in the early stages.</li></p>
+       <img src="fpdct.jpeg"height="350px"> <img src="wst5.jpg"height="350px">
+       <h2>Do you want to donate us and be a member of our community? Register yourself in the given box below.</h2>
+    <div class="container">
+        <h1>Recycle the waste and save earth</h1>
+        <form action="noaction.php">
+<div class="form-group">
+    <input type="text" name=""placeholder="Enter your Name">
+</div>
+<div class="form-group">
+    <input type="number" name=""placeholder="Enter amount of waste">
+</div>
+<div class="form-group">
+    <input type="text" name=""placeholder="Enter type of waste ">
+</div>
+<div class="form-group">
+    <input type="text" name=""placeholder="Enter your Locality">
+</div>
+<button class="btn">Submit</button>
+        </form>   
+    </div>
+    <h1 style="text-align: center;"><u>OUR TEAM</u></h1>
+    <img src="avtr.jpg" alt="Avatar" class="avatar">
+<img src="avtr2.jpg" alt="Avatar" class="avatar">
+<img src="avtr3.jpg" alt="Avatar" class="avatar">
+<img src="avtr4.jpg" alt="Avatar" class="avatar">
+<img src="avtr.jpg" alt="Avatar" class="avatar">
+<img src="avtr2.jpg" alt="Avatar" class="avatar">
+<img src="avtr3.jpg" alt="Avatar" class="avatar">
+<img src="avtr4.jpg" alt="Avatar" class="avatar">
+
+
+    <footer>
+        <button class="btn">Register Now</button><button class="btn">Sign Up</button><br>
+        
+        </footer>
+       
+</body>
+</html>
